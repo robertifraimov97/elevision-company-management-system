@@ -1,10 +1,3 @@
-//
-// Created by Robert Ifraimov on 25/08/2024.
-//
-
-//#define FINAL_PROJECT_IN_C_EMPLOYEE_H
-
-//#endif //FINAL_PROJECT_IN_C_EMPLOYEE_H
 
 #ifndef EMPLOYEE
 #define EMPLOYEE
@@ -24,4 +17,4 @@ int initEmployee(Employee* pEmployee);
 void printEmployee(const Employee* pEmployee);
 
 
-#endif //
+#endif

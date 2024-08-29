@@ -1,12 +1,3 @@
-//
-// Created by Robert Ifraimov on 25/08/2024.
-//
-
-//#ifndef FINAL_PROJECT_IN_C_CHANNEL_H
-//#define FINAL_PROJECT_IN_C_CHANNEL_H
-
-//#endif //FINAL_PROJECT_IN_C_CHANNEL_H
-
 
 #ifndef _CHANNEL_
 #define _CHANNEL_
@@ -20,8 +11,6 @@
         printf("s"); \
     } \
     printf("\n");
-
-
 
 
 typedef enum {
@@ -55,7 +44,7 @@ int checkUniqeName(char* name, const Channel* pChannel);
 int broadcastTime(Show* pShow, Channel* pChannel);
 Commercial* commercialNameExist(char* commercialName, Commercial* commercialArr, int numOfCommercials);
 int deleteCommercial(Commercial* commercialArr, int* numOfCommercials, char* commercialToDelete);
-//void freeChannel(Channel* pChannel);
+void freeChannel(Channel* pChannel);
 
 
 #endif

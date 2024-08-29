@@ -1,11 +1,4 @@
-//
-// Created by Robert Ifraimov on 25/08/2024.
-//
 
-//#ifndef FINAL_PROJECT_IN_C_PERSON_H
-//#define FINAL_PROJECT_IN_C_PERSON_H
-
-//#endif //FINAL_PROJECT_IN_C_PERSON_H
 #ifndef PERSON_H
 #define PERSON_H
 #define NAME_LENGTH 50

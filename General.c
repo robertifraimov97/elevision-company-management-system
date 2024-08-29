@@ -1,14 +1,9 @@
-//
-// Created by Robert Ifraimov on 25/08/2024.
-//
 
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
 #include <ctype.h>
 #include "General.h"
-
-
 
 char* getStrExactName(const char* msg)
 {

@@ -1,11 +1,4 @@
-//
-// Created by Robert Ifraimov on 25/08/2024.
-//
 
-//#ifndef FINAL_PROJECT_IN_C_SHOW_H
-//#define FINAL_PROJECT_IN_C_SHOW_H
-
-//#endif //FINAL_PROJECT_IN_C_SHOW_H
 #ifndef SHOW
 #define SHOW
 #define SHOW_NAME_LENGTH 50

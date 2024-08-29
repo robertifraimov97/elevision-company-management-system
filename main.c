@@ -1,3 +1,4 @@
+
 #include <stdio.h>
 #include "TvCompany.h"
 
@@ -8,12 +9,12 @@ void printAllEmployees(const TvCompany* company);
 
 typedef enum
 {
-    eLoadTvCompanyFromTextFile , eLoadTvCompanyFromBinaryFile, eAddEmployee, eAddViewer, eCreateAChannel, eAddShowToChannel, eAddCommercialToChannel,
+   eAddEmployee, eAddViewer, eCreateAChannel, eAddShowToChannel, eAddCommercialToChannel,
     eAddComplaint, eSortViewer, eSearchViewer, ePrintTvCompany, ePrintAllViewers,ePrintAllEmployees,
     ePrintAllAdultsViewers, ePrintAllCommercialsSameType, eNofOptions
 } eMenuOptions;
 
-const char* str[eNofOptions] = {"Load TvCompany From Text File", "Load TvCompany From Binary File", "Add Employee","Add Viewer","Create a Channel",
+const char* str[eNofOptions] = {"Add Employee","Add Viewer","Create a Channel",
                                 "Add show to channel", "Add commercial to channel", "Add complaint", "Sort viewer",
                                 "Find viewer", "Print Tv company", "Print all viewers","Print all employees",
                                 "Print all adults viewers", "Print all commercial with the same type"};
@@ -34,19 +35,11 @@ int main()
     {
         option = menu();
 
-        if (option > 1 && option <= 14 && !(company.companyName))
+        if (option >=0 && option <= 12 && !(company.companyName))
             initTvCompany(&company);
 
         switch (option)
         {
-//            case eLoadTvCompanyFromTextFile:
-//                company = readCompanyFromFile("TvCompany.txt");
-//                break;
-//
-//            case eLoadTvCompanyFromBinaryFile:
-//                company = readCompanyFromBinaryFile("TvCompany.bin");
-//                break;
-
             case eAddEmployee:
                 if (!addEmployee(&company))
                     printf("Error adding employee\n");
@@ -116,10 +109,6 @@ int main()
         }
     } while (!stop);
 
-//    writeCompanyToFile(&company, "TvCompany.txt");
-//    writeCompanyToBinaryFile(&company, "TvCompany.bin");
-
-    //freeCompany(&company);
 }
 
 int menu()

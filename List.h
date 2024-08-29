@@ -1,11 +1,4 @@
-//
-// Created by Robert Ifraimov on 25/08/2024.
-//
 
-//#ifndef FINAL_PROJECT_IN_C_LIST_H
-//#define FINAL_PROJECT_IN_C_LIST_H
-
-//#endif //FINAL_PROJECT_IN_C_LIST_H
 /********************************************/
 /*   list.h                                 */
 /*   a dynamic  linked list with a header   */

@@ -1,6 +1,4 @@
-//
-// Created by Robert Ifraimov on 25/08/2024.
-//
+
 #include <stdio.h>
 #include <stdlib.h>
 #include "Viewer.h"
@@ -14,6 +12,7 @@ int initViewer(Viewer* pViewer)
         return 0;
     }
     printf("Dear customer, your profile is saved in the system, this is your account number: %d Please remember it for future contact with us.\n", pViewer->person.id);
+    pViewer->contract.type = 1;
     initContract(&pViewer->contract);
 
     pViewer->channelArr = NULL;

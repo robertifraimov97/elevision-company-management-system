@@ -1,6 +1,3 @@
-//
-// Created by Robert Ifraimov on 25/08/2024.
-//
 
 #include <stdio.h>
 #include <ctype.h>

@@ -1,11 +1,4 @@
-//
-// Created by Robert Ifraimov on 25/08/2024.
-//
 
-//#ifndef FINAL_PROJECT_IN_C_TIME_H
-//#define FINAL_PROJECT_IN_C_TIME_H
-
-//#endif //FINAL_PROJECT_IN_C_TIME_H
 #ifndef TIME
 #define TIME
 
@@ -24,4 +17,3 @@ void printTime(const Time* pTime);
 void printTimeToFile(const Time* pTime, FILE* file);
 
 #endif
-

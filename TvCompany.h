@@ -1,11 +1,3 @@
-//
-// Created by Robert Ifraimov on 25/08/2024.
-//
-
-//#ifndef FINAL_PROJECT_IN_C_TVCOMPANY_H
-//#define FINAL_PROJECT_IN_C_TVCOMPANY_H
-
-//#endif //FINAL_PROJECT_IN_C_TVCOMPANY_H
 
 #ifndef TVCOMPANY
 #define TVCOMPANY
@@ -22,7 +14,6 @@ typedef enum {
 
 static const char* sortTypeStr[eNofSortTypes]
         = { "Viewer name", "Start date", "End date" };
-
 
 
 typedef struct
@@ -63,7 +54,7 @@ void printAllAdultViewers(const TvCompany* pCompany);
 void printAllCommercialsSameType(const TvCompany* pCompany);
 void printTvCompany(const TvCompany* pCompany);
 
-//void freeCompany(TvCompany* company);
+void freeCompany(TvCompany* company);
 
 
 ////////////////////////////const and free

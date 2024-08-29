@@ -1,6 +1,4 @@
-//
-// Created by Robert Ifraimov on 25/08/2024.
-//
+
 
 /**************/
 /*   list.c   */
